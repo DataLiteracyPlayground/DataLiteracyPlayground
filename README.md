@@ -12,7 +12,7 @@ Tanya's blog post outlining her aims for this project can be viewed at:
 
 **Project vision:**
 
-To work with data librarians, data professionals and designers to create an online learning space where young adults can use, 
+To work with data librarians, data professionals, educators and designers to create an online learning space where young adults can use, 
 interact with and understad the benefits and issues of using and sharing data so that they can make informed choices 
 about data sharing (personal and research) and open data usage. 
 
