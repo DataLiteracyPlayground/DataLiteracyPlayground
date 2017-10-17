@@ -1,8 +1,8 @@
 # DataLiteracyPlayground
 
-Hi, and welcome to the Data Literacy Playground!
-
 ![Data Literacy Playground Poster](/DLPposter.png)
+
+Hi, and welcomed me to the Data Literacy Playground!
 
 This project was originally proposed by Tanya Dorey-Elias at the LAK 2017 Hackathon and is being kickstarted by inclusion in the Mozilla Open Leader Program cohort 4.
 
@@ -17,6 +17,15 @@ Tanya's blog post outlining her aims for this project can be viewed at:
 To work with data librarians, data professionals, educators and designers to create an online learning space where young adults can use, 
 interact with and understad the benefits and issues of using and sharing data so that they can make informed choices 
 about data sharing (personal and research) and open data usage. 
+
+**The Playground**
+
+The playground will consist of three interconnected zones, these will be:
+* Data and Me
+* Data and the Academy
+* Data and Society
+
+Imagine three hexagons positioned so that that all touch.
 
 **Project canvas:**
 
