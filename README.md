@@ -2,6 +2,8 @@
 
 Hi, and welcome to the Data Literacy Playground!
 
+![Data Literacy Playground Poster](/DLPposter.png)
+
 This project was originally proposed by Tanya Dorey-Elias at the LAK 2017 Hackathon and is being kickstarted by inclusion in the Mozilla Open Leader Program cohort 4.
 
 Tanya's blog post outlining her aims for this project can be viewed at: 
