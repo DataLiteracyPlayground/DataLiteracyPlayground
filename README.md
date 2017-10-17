@@ -30,5 +30,5 @@ Keep up to date with project news by joining the Slack channel: data-playground.
 
 For the project roadmap please see Projects.
 
-Details of how to get involved are outlined in CONTRIBUTING.md
+Details of how to get involved are outlined in [CONTRIBUTING.md](https://github.com/quirksahern/DataLiteracyPlayground/blob/master/CONTRIBUTING.md)
 
