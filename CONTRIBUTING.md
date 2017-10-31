@@ -13,6 +13,8 @@ To work with data librarians, data professionals, educators and designers to cre
 interact with and understad the benefits and issues of using and sharing data so that they can make informed choices 
 about data sharing (personal and research) and open data usage. 
 
+The target audiene for the playground is 16 - 24 yr olds.
+
 ## Intellectual Property
 
 My contributing to this project you agree that you contributions will be subject to the Creative Commons license:
@@ -20,9 +22,23 @@ My contributing to this project you agree that you contributions will be subject
 
 ## How to contribute
 
-Current work strands from the project road map will appear as Issues.
+Current work strands from the project road map will appear as Issues, those the project team particularly need help with are labeled as needing assistance. There also Issues tagged as suitable for beginners.
 
+At present assistance is particularly required from Graphic Designers / Illustrations to help create the aesthetics for the playground.
 
+If you have questions or issues pushing to GitHub, please email: datalitplayground@gmail.com
+
+This project will require assistance from:
+- Graphic designers / illustrators
+- Data librarians
+- Data protection / privacy specialists
+- Open data advocates
+- Data scientists
+- Educators
+- Games developers
+- Web developers
+- Anyone with a passion for this topic!
 
 ## Recognition of contribution
 
+Contributors will be listed on the project's contributors page and all contributors will receive either a digital or physical Data Literacy Playground badge dependent on location. Physical badges - UK only. 
