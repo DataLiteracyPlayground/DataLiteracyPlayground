@@ -13,7 +13,7 @@ To work with data librarians, data professionals, educators and designers to cre
 interact with and understad the benefits and issues of using and sharing data so that they can make informed choices 
 about data sharing (personal and research) and open data usage. 
 
-The target audiene for the playground is 16 - 24 yr olds.
+The target audience for the playground is 16 - 24 yr olds.
 
 ## Intellectual Property
 
