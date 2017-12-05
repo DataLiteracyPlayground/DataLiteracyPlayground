@@ -43,3 +43,9 @@ For the project roadmap please see Projects.
 
 Details of how to get involved are outlined in [CONTRIBUTING.md](https://github.com/quirksahern/DataLiteracyPlayground/blob/master/CONTRIBUTING.md)
 
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img align="left" alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
+All content in this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
