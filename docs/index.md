@@ -1,4 +1,4 @@
-##Data Literacy Playground
+## Data Literacy Playground
 
 Hi, and welcomed me to the Data Literacy Playground!
 
