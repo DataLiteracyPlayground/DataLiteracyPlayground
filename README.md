@@ -20,12 +20,11 @@ about data sharing (personal and research) and open data usage.
 
 **The Playground**
 
-The playground will consist of three interconnected zones, these will be:
+The playground will consist of three zones, these will be:
 * Data and Me
 * Data and the Academy
 * Data and Society
 
-Imagine three hexagons positioned so that that all touch.
 
 **Project canvas:**
 
