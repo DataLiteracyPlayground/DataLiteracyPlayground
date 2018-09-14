@@ -7,6 +7,6 @@ and was kickstarted by inclusion in the Mozilla Open Leader Program cohort 4.
 
 The playground has three zones:
 
-- Data and Me
-- Data and The Academy
-- Data and Society
+- [Data and Me](/me/index.html)
+- [Data and The Academy](/academy/index.html)
+- [Data and Society](/society/index.html)
