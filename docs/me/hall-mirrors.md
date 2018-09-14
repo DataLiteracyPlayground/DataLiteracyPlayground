@@ -19,3 +19,9 @@ Explore these resources to learn more
 
 * [What does Facebook know about you?](https://open.uts.edu.au/facebookknowyou.html)
   * An open online course created by University of Technology Sydney
+
+
+
+Return to [Data and Me](/me/index.html)
+
+Visit [Data and The Academy](/academy/index.html) or [Data and Society](/society/index.html)

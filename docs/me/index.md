@@ -3,8 +3,8 @@
 ![Data and Me poster image](/assets/DLPposter.png)
 
 To explore in this zone:
-* [Hall of Mirrors](/hall-mirrors.html)
+* [Hall of Mirrors](/me/hall-mirrors.html)
 
-Return to [Home](http://www.data-playground.org.uk/)
+Return to [Home](/index.html)
 
 Visit [Data and The Academy](/academy/index.html) or [Data and Society](/society/index.html)
