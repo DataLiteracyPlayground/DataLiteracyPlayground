@@ -39,6 +39,8 @@ This project will require assistance from:
 - Web developers
 - Anyone with a passion for this topic!
 
+Additional guidance on how to contributing is provided in the Wiki
+
 ## Recognition of contribution
 
 Contributors will be listed on the project's contributors page and all contributors will receive either a digital or physical Data Literacy Playground badge dependent on location. Physical badges - UK only. 
