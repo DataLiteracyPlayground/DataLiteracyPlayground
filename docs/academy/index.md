@@ -4,4 +4,4 @@
 
 Return to [Home](http://www.data-playground.org.uk/)
 
-Visit [Data and Me](/me/index.md) or [Data and Society](/society/index.html)
+Visit [Data and Me](/me/index.html) or [Data and Society](/society/index.html)
