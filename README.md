@@ -37,7 +37,7 @@ Project documentation is maintained in the wiki.
 
 This project is at the very beginning of its journey.
 
-Keep up to date with project news by joining the Slack channel: data-playground.slack.com
+Keep up to date with project news follow us on Twitter: [@playground_data](https://twitter.com/playground_data)
 
 For the project roadmap please see [Projects](https://github.com/quirksahern/DataLiteracyPlayground/projects).
 
