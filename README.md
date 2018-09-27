@@ -25,6 +25,7 @@ The playground will consist of three zones, these will be:
 * Data and the Academy
 * Data and Society
 
+[Visit the playground](http://www.data-playground.org.uk/)
 
 **Project canvas:**
 
