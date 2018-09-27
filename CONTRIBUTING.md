@@ -26,6 +26,8 @@ Current work strands from the project road map will appear as Issues, those the 
 
 At present assistance is particularly required from Graphic Designers / Illustrations to help create the aesthetics for the playground.
 
+In addition we are creating a created list of teaching and learning resources for each area of the playground.
+
 If you have questions or issues pushing to GitHub, please email: datalitplayground@gmail.com
 
 This project will require assistance from:
@@ -39,7 +41,7 @@ This project will require assistance from:
 - Web developers
 - Anyone with a passion for this topic!
 
-Additional guidance on how to contributing is provided in the Wiki
+Additional guidance on how to contribute is provided in the Wiki.
 
 ## Recognition of contribution
 
