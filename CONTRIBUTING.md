@@ -28,6 +28,8 @@ At present assistance is particularly required from Graphic Designers / Illustra
 
 In addition we are creating a created list of teaching and learning resources for each area of the playground.
 
+Please see Issues for specific items we are currently seeking help with.
+
 If you have questions or issues pushing to GitHub, please email: datalitplayground@gmail.com
 
 This project will require assistance from:
