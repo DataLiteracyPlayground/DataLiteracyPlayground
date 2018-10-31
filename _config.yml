@@ -1,2 +1,41 @@
-theme: jekyll-theme-cayman
 source: docs
+
+title: Data Literacy Playground
+description: Open Education Resource (OER) for 16-24 yr olds
+
+author:
+  name: DataLiteracyPlayground
+  url: https://github.com/DataLiteracyPlayground/DataLiteracyPlayground
+
+social:
+  - network: github
+    name: DataLiteracyPlayground
+    url: https://github.com/DataLiteracyPlayground
+  - network: twitter
+    name: playground_data
+    url: https://twitter.com/playground_data
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      background-image: alice-at-table.png
+  -
+    scope:
+      path: "me"
+    values:
+      category: "Data and Me"
+      category-color: "var(--cat-theme--me)"
+  -
+    scope:
+      path: "academy"
+    values:
+      category: "Data and the Academy"
+      category-color: "var(--cat-theme--academy)"
+  -
+    scope:
+      path: "society"
+    values:
+      category: "Data and Society"
+      category-color: "var(--cat-theme--society)"

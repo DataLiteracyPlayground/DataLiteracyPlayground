@@ -1,0 +1,41 @@
+// Colors
+
+$logo-green:  #7fa328;
+$logo-yellow: #d39816;
+$logo-orange: #db7519;
+$logo-red:    #cc4032;
+$logo-pink:   #b25787;
+$logo-purple: #7d3a84;
+$logo-blue:   #135a89;
+$logo-teal:   #158766;
+$logo-muted:  #7c998f;
+$logo-dark:   #332d2b;
+
+:root {
+  --cat-theme--me: #{$logo-purple};
+  --cat-theme--academy: #{$logo-blue};
+  --cat-theme--society: #{$logo-green};
+}
+
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+// Text
+$section-headings-color: $logo-teal;
+$body-text-color: #606c71 !default;
+$body-link-color: $logo-blue;
+$blockquote-text-color: #819198 !default;
+
+// Code
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
+
+// Borders
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+// Type
+$serif-font: 'Libre Baskerville', serif;
+$sans-serif-font: 'Nunito Sans', sans-serif;

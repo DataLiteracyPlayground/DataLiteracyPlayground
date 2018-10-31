@@ -1,0 +1,23 @@
+.social-bar {
+  text-align: center;
+  font-size: 1.75em;
+  padding: 0.85rem;
+  color: lighten($logo-dark, 33%);
+  background-color: lighten($logo-dark, 5%);
+  font-family: $serif-font;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    margin-left: 0.5em;
+    color: $logo-muted;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
