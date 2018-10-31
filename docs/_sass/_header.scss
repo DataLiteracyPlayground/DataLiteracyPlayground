@@ -4,8 +4,56 @@
   background-color: darken($logo-dark, 5%);
   padding: 2rem;
 
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.logo--link {
+  display: inline-block;
+  width: 100%;
+  max-width: 320px;
+
   img {
     width: 100%;
-    max-width: 400px;
+  }
+}
+
+nav {
+  a {
+    color: saturate(lighten($logo-dark, 50%), 10%);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    margin: 0 0.75rem;
+  }
+
+  .data {
+    font-size: 1rem;
+    line-height: 1;
+    display: block;
+    text-transform: lowercase;
+    font-family: $serif-font;
+    font-style: italic;
+  }
+
+  .category {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1.3rem;
+    font-weight: bold;
   }
 }
