@@ -1,0 +1,26 @@
+.site-footer {
+  color: lighten($logo-dark, 60%);
+  font-size: 0.8rem;
+  padding: 2rem;
+  background: $logo-dark;
+
+  a {
+    font-weight: bold;
+    color: saturate(lighten($logo-dark, 50%), 50%);
+  }
+
+  h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 0.75em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px dotted lighten($logo-dark, 20%);
+  }
+
+  p {
+    margin-top: 0;
+  }
+}

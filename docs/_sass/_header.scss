@@ -1,0 +1,11 @@
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: darken($logo-dark, 5%);
+  padding: 2rem;
+
+  img {
+    width: 100%;
+    max-width: 400px;
+  }
+}

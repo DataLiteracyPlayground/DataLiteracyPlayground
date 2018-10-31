@@ -1,0 +1,10 @@
+<section class="social-bar">
+  <div class="container">
+    <em>connect with us:</em>
+    {% for network in site.social %}
+      <a href="{{ network.url }}">
+        <i class="fab fa-{{ network.network }}" title="{{ network.network: network.name }}"></i>
+      </a>
+    {% endfor %}
+  </div>
+</section>
