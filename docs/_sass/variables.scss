@@ -21,6 +21,11 @@ $logo-dark:   #332d2b;
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
 // Text
 $section-headings-color: $logo-teal;
 $body-text-color: #606c71 !default;
