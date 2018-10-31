@@ -3,12 +3,6 @@
   text-align: center;
   background-color: darken($logo-dark, 5%);
   padding: 2rem;
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 }
 
 .logo--link {
@@ -16,10 +10,17 @@
   width: 100%;
   max-width: 320px;
 
+  @include medium {
+    max-width: 240px;
+    flex-shrink: 1;
+  }
+
   img {
     width: 100%;
   }
 }
+
+// Navbar
 
 nav {
   a {
@@ -34,26 +35,47 @@ nav {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-  }
-
-  li {
-    margin: 0 0.75rem;
-  }
-
-  .data {
-    font-size: 1rem;
-    line-height: 1;
-    display: block;
-    text-transform: lowercase;
-    font-family: $serif-font;
-    font-style: italic;
   }
 
   .category {
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 1.3rem;
     font-weight: bold;
+  }
+}
+
+// Desktop Header
+
+@include medium-up {
+  .page-header {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+    }
+
+    li {
+      margin: 0 0.75rem;
+    }
+
+    .data {
+      font-size: 1rem;
+      line-height: 1;
+      display: block;
+      text-transform: lowercase;
+      font-family: $serif-font;
+      font-style: italic;
+      white-space: pre;
+    }
+
+    .category {
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 1.3rem;
+    }
   }
 }
