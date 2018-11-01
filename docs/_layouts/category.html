@@ -1,0 +1,20 @@
+---
+layout: page-wrapper
+---
+
+<section class="container container--narrow">
+  <div class="content-card__wrapper category-{{ page.category-slug }}">
+    <div class="content-card__header px-4 px-lg-5 py-3" style="--category-color: {{ page.category-color }}">
+      <a href="/{{ page.category-slug }}">
+        {{ page.category-name }}
+      </a>
+    </div>
+    <div class="content-card p-4 p-lg-5">
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    </div>
+    <div class="content-card__explore-bar px-4 px-lg-5 py-4">
+      {% include explore-this-section.html %}
+    </div>
+  </div>
+</section>

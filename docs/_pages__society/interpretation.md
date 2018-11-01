@@ -1,4 +1,6 @@
-# Interpretation
+---
+title: Interpretation
+---
 
 Is what we see, always what is being shared? What is the 'truth' of what is being shared?
 
@@ -10,8 +12,3 @@ In this section we share some resources that may help.
 
 * [NY Times - What's Going On in This Graph?](https://www.nytimes.com/column/whats-going-on-in-this-graph)
 * [Data Culture Project](https://databasic.io/en/culture/)
-
-
-Return to [Data and Society](/society/index.html)
-
-Visit [Data and The Academy](/academy/index.html) or [Data and Me](/me/index.html)

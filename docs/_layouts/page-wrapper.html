@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+
+{% include head.html %}
+
+{% if page.category-slug %}
+  <body class="category--{{ page.category-slug }}">
+{% else %}
+  <body>
+{% endif %}
+  {% include page-header.html %}
+
+  <main style="--background-image: url(/assets/{{ page.background-image }})">
+    {{ content }}
+  </main>
+
+  {% include page-social-bar.html %}
+
+  {% include page-footer.html %}
+
+</body>
+
+</html>

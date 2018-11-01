@@ -11,15 +11,36 @@ $logo-teal:   #158766;
 $logo-muted:  #7c998f;
 $logo-dark:   #332d2b;
 
-:root {
-  --cat-theme--me: #{$logo-purple};
-  --cat-theme--academy: #{$logo-blue};
-  --cat-theme--society: #{$logo-green};
+// Category Colors
+
+$category-color--me: $logo-purple;
+$category-color--academy: $logo-blue;
+$category-color--society: $logo-green;
+
+$category-colors: ();
+$category-colors: map-merge(
+  (
+    "me":      $category-color--me,
+    "academy": $category-color--academy,
+    "society": $category-color--society
+  ),
+  $category-colors
+);
+
+$category-lighten-amount: 55%;
+
+@each $slug, $color in $category-colors {
+  .category--#{$slug} {
+    --active-category-color: #{$color};
+    --active-category-color--light: #{lighten($color, $category-lighten-amount)};
+  }
+
+  .color--#{$slug} {
+    color: $color;
+  }
 }
 
 // Breakpoints
-$large-breakpoint: 64em !default;
-$medium-breakpoint: 42em !default;
 
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
@@ -27,20 +48,24 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 // Text
-$section-headings-color: $logo-teal;
+
+$section-headings-color: lighten($logo-dark, 25%);
 $body-text-color: #606c71 !default;
-$body-link-color: $logo-blue;
+$body-link-color: var(--active-category-color, #{$logo-teal});
 $blockquote-text-color: #819198 !default;
 
 // Code
+
 $code-bg-color: #f3f6fa !default;
 $code-text-color: #567482 !default;
 
 // Borders
+
 $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
 // Type
+
 $serif-font: 'Libre Baskerville', serif;
 $sans-serif-font: 'Nunito Sans', sans-serif;
