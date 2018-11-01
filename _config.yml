@@ -15,27 +15,53 @@ social:
     name: playground_data
     url: https://twitter.com/playground_data
 
+collections:
+  pages__me:
+    output: true
+    permalink: /me/:path/
+  pages__society:
+    name: Data and Society
+    output: true
+    permalink: /society/:path/
+  pages__academy:
+    name: Data and the Academy
+    output: true
+    permalink: /academy/:path/
+
 defaults:
+  # All Project Files
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
       background-image: alice-at-table.png
+
+  # Categories (by collection)
+  # Category index page frontmatter is assigned in the file itself
   -
     scope:
-      path: "me"
+      path: ""
+      type: "pages__me"
     values:
-      category: "Data and Me"
-      category-color: "var(--cat-theme--me)"
+      layout: "category"
+      category-color: var(--cat-theme--me)
+      category-name: "Data and Me"
+      category-slug: "me"
   -
     scope:
-      path: "academy"
+      path: ""
+      type: "pages__society"
     values:
-      category: "Data and the Academy"
-      category-color: "var(--cat-theme--academy)"
-  -
-    scope:
-      path: "society"
-    values:
-      category: "Data and Society"
+      layout: "category"
       category-color: "var(--cat-theme--society)"
+      category-name: "Data and Society"
+      category-slug: "society"
+  -
+    scope:
+      path: ""
+      type: "pages__academy"
+    values:
+      layout: "category"
+      category-color: "var(--cat-theme--academy)"
+      category-name: "Data and the Academy"
+      category-slug: "academy"

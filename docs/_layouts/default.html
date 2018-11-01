@@ -1,32 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ site.locale }}">
-  
-  {% include head.html %}
+---
+layout: page-wrapper
+---
 
-  <body>
-    {% include page-header.html %}
-
-    <main style="--background-image: url({{ page.background-image }})">
-      <section class="container container--narrow">
-        <div class="content-card--wrapper">
-          {% if page.category %}
-            <div
-              class="content-card--header px-4 px-lg-5 py-3"
-              style="--category-color: {{ page.category-color }}"
-            >
-              {{ page.category }}
-            </div>
-          {% endif %}
-          <div class="content-card p-4 p-lg-5">
-            {{ content }}
-          </div>
-        </div>
-      </section>
-    </main>
-
-    {% include page-social-bar.html %}
-
-    {% include page-footer.html %}
-
-  </body>
-</html>
+<section class="container container--narrow">
+  <div class="content-card__wrapper">
+    <div class="content-card p-4 p-lg-5">
+      {{ content }}
+    </div>
+  </div>
+</section>

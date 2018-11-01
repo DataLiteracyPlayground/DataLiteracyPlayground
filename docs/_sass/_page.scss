@@ -20,8 +20,6 @@ body {
     left: 10px;
     height: auto;
     width: auto;
-    background: invert($body-link-color);
-    outline: thick solid invert($body-link-color);
   }
 }
 
@@ -30,7 +28,7 @@ main {
   padding-top: 75px;
   padding-bottom: 75px;
   background-color: lighten($logo-dark, 75%);
-  background-image: var(--page-background, url(/assets/alice-at-table.png));
+  background-image: var(--background-image, url(/assets/alice-at-table.png));
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -51,25 +49,6 @@ main {
   }
 }
 
-.content-card {
-  &--wrapper {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 19px 38px rgba($logo-dark, 0.2),
-                0 15px 12px rgba($logo-dark, 0.1);
-    overflow: hidden;
-  }
-
-  &--header {
-    background-color: var(--category-color);
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 1.2em;
-  }
-}
-
-[class^="col"] :last-child {
+:last-child {
   margin-bottom: 0;
 }
