@@ -3,7 +3,7 @@
   <ul>
     {% for cat-page in site.pages %}
       {% if cat-page.layout == "category-index" %}
-        {% unless cat-page.url == page.url %}
+        {% unless cat-page.url == page.url or cat-page.category-slug == page.category-slug %}
           {% assign name = cat-page.category-name %}
           {% assign link = cat-page.url %}
           {% include explore__list-item.html %}

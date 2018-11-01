@@ -19,21 +19,4 @@
       color: #fff;
     }
   }
-
-  &__explore-bar {
-    background-color: var(--active-category-color--light, #eee);
-
-    li, a {
-      color: var(--active-category-color, #444);
-    }
-
-    h2 {
-      color: rgba($logo-dark, 0.7);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-weight: bold;
-      font-size: 1rem;
-      opacity: 0.7;
-    }
-  }
 }
