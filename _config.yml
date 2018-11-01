@@ -47,6 +47,7 @@ defaults:
       category-color: var(--cat-theme--me)
       category-name: "Data and Me"
       category-slug: "me"
+      background-image: "alice-caterpillar.jpg"
   -
     scope:
       path: ""
@@ -56,6 +57,7 @@ defaults:
       category-color: "var(--cat-theme--society)"
       category-name: "Data and Society"
       category-slug: "society"
+      background-image: "cards-tree.jpg"
   -
     scope:
       path: ""
@@ -65,3 +67,4 @@ defaults:
       category-color: "var(--cat-theme--academy)"
       category-name: "Data and the Academy"
       category-slug: "academy"
+      background-image: "alice-lion-unicorn.jpg"
