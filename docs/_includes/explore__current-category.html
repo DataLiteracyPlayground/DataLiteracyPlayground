@@ -1,0 +1,36 @@
+{% assign explore-title="Explore This Section" %}
+
+{% if page.category-slug == "me" and site.pages__me.size > 0 %}
+  <div class="{{ col-classes }}">
+    <h2>{{ explore-title }}</h2>
+    <ul>
+      {% for subpage in site.pages__me %}
+        {% assign name = subpage.title %}
+        {% assign link = subpage.url %}
+        {% include explore__list-item.html %}
+      {% endfor %}
+    </ul>
+  </div>
+{% elsif page.category-slug == "society" and site.pages__society.size > 0 %}
+  <div class="{{ col-classes }}">
+    <h2>{{ explore-title }}</h2>
+    <ul>
+      {% for subpage in site.pages__society %}
+        {% assign name = subpage.title %}
+        {% assign link = subpage.url %}
+        {% include explore__list-item.html %}
+      {% endfor %}
+    </ul>
+  </div>
+{% elsif page.category-slug == "academy" and site.pages__academy.size > 0 %}
+  <div class="{{ col-classes }}">
+    <h2>{{ explore-title }}</h2>
+    <ul>
+      {% for subpage in site.pages__academy %}
+        {% assign name = subpage.title %}
+        {% assign link = subpage.url %}
+        {% include explore__list-item.html %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
