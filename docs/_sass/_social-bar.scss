@@ -7,9 +7,11 @@
   font-family: $serif-font;
 
   .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include medium-up {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   a {
@@ -17,7 +19,14 @@
     color: $logo-muted;
 
     &:hover {
+      text-decoration: none;
       opacity: 0.8;
+    }
+
+    @include small {
+      &:first-of-type {
+        margin-left: 0;
+      }
     }
   }
 }
