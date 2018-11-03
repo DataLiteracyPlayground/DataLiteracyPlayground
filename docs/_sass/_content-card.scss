@@ -20,3 +20,13 @@
     }
   }
 }
+
+.card-image {
+  @include large {
+    max-width: 450px;
+  }
+
+  img {
+    display: block;
+  }
+}
