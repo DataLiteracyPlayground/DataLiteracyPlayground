@@ -2,7 +2,8 @@
 title: Interpretation
 ---
 
-Is what we see, always what is being shared? What is the 'truth' of what is being shared?
+Is what we see, always what is being shared? What is the "truth" of what is being shared?
+{: .lead-paragraph}
 
 Data visualisations are increasing and they are not always strightforward to interpret or create.
 

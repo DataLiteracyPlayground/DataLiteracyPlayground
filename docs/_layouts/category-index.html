@@ -9,9 +9,27 @@ layout: page-wrapper
         {{ page.category-name }}
       </a>
     </div>
-    <div class="content-card p-4 p-lg-5">
-      {{ content }}
-    </div>
+
+    {%if page.card-image %}
+      <div class="content-card">
+        <div class="row">
+          <div class="col-xs-12 col-md">
+            <div class="p-4 p-lg-5">
+              {{ content }}
+            </div>
+          </div>
+          <div class="card-image col-xs-12 col-md">
+            {{ page.card-image | markdownify }}
+          </div>
+        </div>
+      </div>
+
+    {% else %}
+      <div class="content-card p-4 p-lg-5">
+        {{ content }}
+      </div>
+    {% endif %}
+
     {% include explore-bar.html %}
   </div>
 </section>
