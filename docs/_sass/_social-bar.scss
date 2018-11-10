@@ -29,4 +29,10 @@
       }
     }
   }
+
+  em {
+    @include small {
+      display: block;
+    }
+  }
 }
