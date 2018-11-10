@@ -44,8 +44,15 @@ nav {
     list-style: none;
   }
 
+  .data {
+    display: block;
+    white-space: pre;
+  }
+
   .category {
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 }
 
@@ -72,17 +79,63 @@ nav {
     .data {
       font-size: 1rem;
       line-height: 1;
-      display: block;
       text-transform: lowercase;
       font-family: $serif-font;
       font-style: italic;
-      white-space: pre;
     }
 
     .category {
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
       font-size: 1.3rem;
+    }
+  }
+}
+
+// Mobile Header
+
+@include small {
+  .page-header {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    .container {
+      max-width: 100%;
+    }
+  }
+
+  nav {
+    margin: 20px -15px 0;
+    background-color: darken($logo-dark, 10%);
+    font-size: 0.85rem;
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      display: block;
+      flex: 1;
+
+      &:not(:last-child) {
+        border-right: 1px solid rgba(#fff, 0.125);
+      }
+
+      &:not(:first-child) {
+        border-left: 1px solid rgba(#000, 0.5);
+      }
+    }
+
+    a {
+      display: block;
+      padding: 10px;
+
+      &:hover {
+        background-color: lighten($logo-dark, 5%);
+      }
+    }
+
+    .category {
+      font-size: 1.2em;
     }
   }
 }
