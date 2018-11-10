@@ -1,0 +1,55 @@
+.homepage-headline {
+  font-family: $serif-font;
+  color: $section-headings-color;
+  font-size: 1.4rem;
+
+  strong {
+    text-transform: uppercase;
+    font-family: $sans-serif-font;
+    color: lighten($logo-dark, 10%);
+    letter-spacing: 0.05em;
+  }
+}
+
+.home-card {
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  display: block;
+  border: 10px double #fff;
+
+  &:hover {
+    text-decoration: none;
+
+    .home-card--contents {
+      transform: scale(1.1);
+    }
+  }
+
+  .data {
+    font-size: 1.5rem;
+    line-height: 1;
+    display: block;
+    text-transform: lowercase;
+    font-family: $serif-font;
+    font-style: italic;
+    white-space: pre;
+  }
+
+  .category {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  &--contents {
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+@each $slug, $color in $category-colors {
+  .home-card--#{$slug} {
+    background-color: #{$color};
+  }
+}
