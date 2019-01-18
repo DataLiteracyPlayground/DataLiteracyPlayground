@@ -1,5 +1,6 @@
 ---
 title: Hall of Mirrors
+category-slug: "me"
 ---
 
 Online services gather information about us through our interactions directly with their services or data shared
